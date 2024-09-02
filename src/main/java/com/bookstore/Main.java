@@ -1,16 +1,14 @@
 package com.bookstore;
 
 import com.bookstore.entities.*;
-import com.bookstore.DAOs.*;
+import com.bookstore.dao.*;
 
-import java.math.BigDecimal;
 import java.util.Optional;
 
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
-import jakarta.persistence.Query;
 
 public class Main {
     public static void main(String[] args) {
